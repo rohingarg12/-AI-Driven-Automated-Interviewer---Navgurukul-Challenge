@@ -252,7 +252,7 @@ MIT License - feel free to use for any purpose.
 - [Navgurukul](https://navgurukul.org/) - AI/ML Challenge
 - [Groq](https://groq.com/) - Lightning-fast LLM inference
 - [Tesseract.js](https://tesseract.projectnaptha.com/) - Browser OCR
-- [Vercel](https://vercel.com/) - Next.js hosting
+
 
 ---
 

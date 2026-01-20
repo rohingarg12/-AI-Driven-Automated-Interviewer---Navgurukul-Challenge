@@ -1,4 +1,4 @@
-# 🎓 AI-Driven Automated Interviewer for Project Presentations
+#  AI-Driven Automated Interviewer for Project Presentations
 
 An AI system that listens to a student presenting a project (screen share + speech) and conducts an adaptive interview based on content and responses.
 
@@ -8,7 +8,7 @@ An AI system that listens to a student presenting a project (screen share + spee
 ![Tesseract](https://img.shields.io/badge/Tesseract.js-OCR-green?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
-## 🎯 Features
+##  Features
 
 - **Screen Capture & OCR** - Tesseract.js extracts text/code from your screen in real-time
 - **AI Vision Analysis** - Llama 4 Scout understands UI, diagrams, and architecture
@@ -71,7 +71,7 @@ navgurukul-interviewer/
 ├── lib/
 │   ├── groq.ts              # Groq API client & prompts
 │   ├── store.ts             # Zustand state management
-│   ├── useClientOCR.ts      # 🔥 Tesseract.js OCR hook (client-side)
+│   ├── useClientOCR.ts      # Tesseract.js OCR hook (client-side)
 │   └── utils.ts             # Utility functions
 ├── .env.example
 ├── package.json
@@ -88,7 +88,7 @@ navgurukul-interviewer/
 | **State** | Zustand | Simple, no boilerplate |
 | **LLM** | Groq (Llama 3.3 70B) | Fast inference, free tier |
 | **Vision** | Groq (Llama 4 Scout) | Understands UI & diagrams |
-| **OCR** | Tesseract.js | 🔥 Client-side text extraction from images |
+| **OCR** | Tesseract.js |  Client-side text extraction from images |
 | **STT** | Groq Whisper | 95%+ accuracy, FREE |
 | **TTS** | Web Speech API | Browser built-in, FREE |
 | **PDF** | jsPDF | Client-side generation |
@@ -129,14 +129,6 @@ export function useClientOCR() {
 }
 ```
 
-## 💰 Cost: $0
-
-Everything is **FREE**:
-- ✅ Groq API: Free tier (30 requests/minute)
-- ✅ Tesseract.js: Open source, runs in browser
-- ✅ Web Speech API: Browser built-in
-- ✅ Screen Capture: Browser built-in
-- ✅ Hosting: Vercel free tier
 
 ## 🎮 How It Works
 
@@ -253,12 +245,6 @@ MIT License - feel free to use for any purpose.
 - [Groq](https://groq.com/) - Lightning-fast LLM inference
 - [Tesseract.js](https://tesseract.projectnaptha.com/) - Browser OCR
 
-
----
-
-<p align="center">
-  Built with ❤️ for <strong>Navgurukul AI/ML Challenge 2025</strong>
-</p>
 
 <p align="center">
   Powered by Groq • Llama 3.3 & 4 Scout • Tesseract.js • Whisper • Web Speech API
